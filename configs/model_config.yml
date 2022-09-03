@@ -1,0 +1,19 @@
+backbone_param:
+  name: resnet50
+  return_interm_layers: false
+  train_backbone: false
+detr_param:
+  dropout: 0
+  embed_size: 256
+  forward_expansion: 4
+  heads: 8
+  num_cls: 92
+  num_layers: 6
+device: cuda
+loss:
+  lambda_L1: 5
+  lambda_cls: 3
+  lambda_iou: 2
+lr: 0.00005
+num_epoch: 20
+save_model: False

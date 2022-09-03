@@ -1,0 +1,6 @@
+loader_param:
+  batch_size: 16
+  shuffle: True
+set_param:
+  annFile: Data/annotations_trainval2017/annotations/instances_val2017.json
+  root: Data/val2017
