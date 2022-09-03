@@ -31,7 +31,7 @@ class CoCoDataset(CocoDetection):
         return img_id, (img, tgt_dict)
 
     def __len__(self):
-        return 32
+        return 3200
 
 
 def detection_collate(batch):
